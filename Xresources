@@ -3,11 +3,19 @@ URxvt*boldFont: xft:terminus:bold:pixelsize=14:antialias=true:hinting=true:autoh
 URxvt*scrollBar: false
 URxvt.saveLines: 32767
 URxvt*termName: rxvt
+URxvt*cursorColor: red
 
 ! Some useful extensions from urxvt-perls
-URxvt.perl-ext-common:      default,clipboard,url-select
+URxvt.perl-ext-common:      default,clipboard,url-select,resize-font
 URxvt.url-select.underline: true
 URxvt.url-select.launcher:  firefox
+
+! Resize font size with shift+ctl+{down,up}
+URxvt.resize-font.smaller: C-Down
+URxvt.resize-font.bigger: C-Up
+! Disable default keybinding
+URxvt.iso14755: false
+URxvt.iso14755_52: false
 
 *URxvt*background: #101010
 *URxvt*foreground: #d0d0d0
