@@ -1,5 +1,5 @@
-URxvt*font: xft:terminus:pixelsize=14:antialias=true:hinting=true:autohinting=true
-URxvt*boldFont: xft:terminus:bold:pixelsize=14:antialias=true:hinting=true:autohinting=true
+URxvt*font: xft:xos4 terminus:pixelsize=14:antialias=true:hinting=true:autohinting=true
+URxvt*boldFont: xft:xos4 terminus:bold:pixelsize=14:antialias=true:hinting=true:autohinting=true
 URxvt*scrollBar: false
 URxvt.saveLines: 32767
 URxvt*termName: rxvt
