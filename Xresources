@@ -8,6 +8,7 @@ URxvt*cursorColor: red
 ! Some useful extensions from urxvt-perls
 URxvt.perl-ext-common:      default,clipboard,url-select,resize-font
 URxvt.url-select.underline: true
+! open a URL from urxvt by using middle-click
 URxvt.url-select.launcher:  firefox
 
 ! Resize font size with shift+ctl+{down,up}
