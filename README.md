@@ -8,6 +8,7 @@ My xresources
 * `terminus-font`
 * `urxvt`
 * `urxvt-perls`
+* `urxvt-resize-font`
 
 # Installation
 
