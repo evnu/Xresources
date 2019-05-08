@@ -4,6 +4,7 @@ URxvt*scrollBar: false
 URxvt.saveLines: 32767
 URxvt*termName: rxvt
 URxvt*cursorColor: red
+URxvt*print-pipe: "cat > /dev/null"
 
 ! Some useful extensions from urxvt-perls
 URxvt.perl-ext-common:      default,clipboard,url-select,resize-font
