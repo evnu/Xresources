@@ -6,6 +6,9 @@ URxvt*termName: rxvt
 URxvt*cursorColor: red
 URxvt*print-pipe: "cat > /dev/null"
 
+dzen2.font: xft:xos4 terminus:pixelsize=14:antialias=true:hinting=true:autohinting=true
+dzen2.boldFont: xft:xos4 terminus:bold:pixelsize=14:antialias=true:hinting=true:autohinting=true
+
 ! Some useful extensions from urxvt-perls
 URxvt.perl-ext-common:      default,clipboard,url-select,resize-font
 URxvt.url-select.underline: true
