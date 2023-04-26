@@ -13,4 +13,6 @@ My xresources
 
 # Installation
 
-`ln -s <PATH>/Xresources <HOME>/.Xresources
+```
+ln -s $PWD/Xresources ~/.Xresources
+```
