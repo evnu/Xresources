@@ -6,46 +6,5 @@ Xft.hinting: 1
 Xft.antialias: 1
 Xft.rgba: rgb
 
-URxvt*font: xft:xos4 terminus:pixelsize=14:antialias=true:hinting=true:autohinting=true
-URxvt*boldFont: xft:xos4 terminus:bold:pixelsize=14:antialias=true:hinting=true:autohinting=true
-URxvt*scrollBar: false
-URxvt.saveLines: 32767
-URxvt*termName: rxvt
-URxvt*cursorColor: red
-URxvt*print-pipe: "cat > /dev/null"
-
 dzen2.font: xft:xos4 terminus:pixelsize=14:antialias=true:hinting=true:autohinting=true
 dzen2.boldFont: xft:xos4 terminus:bold:pixelsize=14:antialias=true:hinting=true:autohinting=true
-
-! Some useful extensions from urxvt-perls
-URxvt.perl-ext-common:      default,clipboard,url-select,resize-font
-URxvt.url-select.underline: true
-! open a URL from urxvt by using middle-click
-URxvt.url-select.launcher:  firefox
-
-! Resize font size with shift+ctl+{down,up}
-URxvt.resize-font.smaller: C-Down
-URxvt.resize-font.bigger: C-Up
-! Disable default keybinding
-URxvt.iso14755: false
-URxvt.iso14755_52: false
-
-*URxvt*background: #101010
-*URxvt*foreground: #d0d0d0
-*URxvt*cursorColor: #d0d0d0
-*URxvt*color0: #101010
-*URxvt*color1: #960050
-*URxvt*color2: #66aa11
-*URxvt*color3: #c47f2c
-*URxvt*color4: #30309b
-*URxvt*color5: #7e40a5
-*URxvt*color6: #3579a8
-*URxvt*color7: #9999aa
-*URxvt*color8: #303030
-*URxvt*color9: #ff0090
-*URxvt*color10: #80ff00
-*URxvt*color11: #ffba68
-*URxvt*color12: #5f5fee
-*URxvt*color13: #bb88dd
-*URxvt*color14: #4eb4fa
-*URxvt*color15: #d0d0d0
