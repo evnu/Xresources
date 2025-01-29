@@ -5,6 +5,3 @@ Xft.hintstyle:  hintfull
 Xft.hinting: 1
 Xft.antialias: 1
 Xft.rgba: rgb
-
-dzen2.font: xft:xos4 terminus:pixelsize=14:antialias=true:hinting=true:autohinting=true
-dzen2.boldFont: xft:xos4 terminus:bold:pixelsize=14:antialias=true:hinting=true:autohinting=true
